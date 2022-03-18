@@ -1,0 +1,6 @@
+x = int(input("Enter a side\n"))
+y = int(input("Enter a side\n"))
+z = int(input("Enter a side\n"))
+print(x == y == z and "Equilateral" or "Not Equilateral")
+print(x == y or y == z or z == x and "Isosceles" or "Not Isosceles")
+print((x != y or y != z or z != x) and "Scalene" or "Not Scalene")
